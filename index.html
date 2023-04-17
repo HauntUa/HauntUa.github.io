@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Cool Webpage</title>
+	<style>
+		body {
+			background-color: #111;
+			color: #fff;
+			font-family: Arial, sans-serif;
+		}
+		h1 {
+			font-size: 4rem;
+			text-align: center;
+			margin-top: 100px;
+			animation: rainbow 3s ease-in-out infinite;
+		}
+		@keyframes rainbow {
+			0% {
+				color: red;
+			}
+			25% {
+				color: orange;
+			}
+			50% {
+				color: yellow;
+			}
+			75% {
+				color: green;
+			}
+			100% {
+				color: blue;
+			}
+		}
+		p {
+			font-size: 1.5rem;
+			text-align: center;
+			margin-top: 50px;
+			animation: pulse 2s linear infinite;
+		}
+		@keyframes pulse {
+			0% {
+				transform: scale(1);
+			}
+			50% {
+				transform: scale(1.1);
+			}
+			100% {
+				transform: scale(1);
+			}
+		}
+		button {
+			padding: 15px 30px;
+			background-color: #FF69B4;
+			border: none;
+			border-radius: 10px;
+			color: #fff;
+			font-size: 1.2rem;
+			cursor: pointer;
+			display: block;
+			margin: 50px auto;
+			transition: background-color 0.5s;
+		}
+		button:hover {
+			background-color: #BA55D3;
+		}
+	</style>
+</head>
+<body>
+	<h1>Hello World!</h1>
+	<p>This is my cool webpage.</p>
+	<button onclick="alert('Thanks for clicking!')">Click Here</button>
+</body>
+</html>

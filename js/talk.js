@@ -1,18 +1,18 @@
-new TypeIt("#tqyxhj", {
+new TypeIt("#wq-zrn", {
         loop: true,
         cursorSpeed: 1000,
         speed: 100
     })
-    .type("小洁洁 && 小怡怡")
+    .type("王岐 && 胖娃")
     .pause(2000)
     .delete(null, {
         delay: 500
     })
-    .type("永远在一起，在一起......!")
+    .type("你最胖喽")
     .pause(3000)
     .go();
 
-new TypeIt('#talkToXHJ', {
+new TypeIt('#talkToZRN', {
     lifeLike: true,
     cursorSpeed: 1000,
     waitUntilVisible: true,

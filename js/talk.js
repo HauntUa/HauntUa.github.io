@@ -8,7 +8,7 @@ new TypeIt("#wq-zrn", {
     .delete(null, {
         delay: 500
     })
-    .type("你最胖喽")
+    .type("我永远都在")
     .pause(3000)
     .go();
 
